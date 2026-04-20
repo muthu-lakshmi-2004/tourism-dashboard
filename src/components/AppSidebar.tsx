@@ -13,6 +13,7 @@ import {
   SidebarHeader,
   useSidebar,
 } from "@/components/ui/sidebar";
+import { title } from "process";
 
 const navItems = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },
@@ -21,6 +22,7 @@ const navItems = [
   { title: "Accommodation", url: "/accommodation", icon: Building2 },
   { title: "Transport", url: "/transport", icon: Bus },
   { title: "Room Occupancy", url: "/occupancy", icon: BedDouble },
+  { title: "Donations", url: "/donations", icon: Building2 },
 ];
 
 export function AppSidebar() {

@@ -10,6 +10,7 @@ import GangaBoatPage from "./pages/GangaBoatPage.tsx";
 import AccommodationPage from "./pages/AccommodationPage.tsx";
 import TransportPage from "./pages/TransportPage.tsx";
 import OccupancyPage from "./pages/OccupancyPage.tsx";
+import DonationPage from "./pages/DonationPage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/accommodation" element={<AccommodationPage />} />
           <Route path="/transport" element={<TransportPage />} />
           <Route path="/occupancy" element={<OccupancyPage />} />
+          <Route path="/donations" element={<DonationPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
