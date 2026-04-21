@@ -1,4 +1,4 @@
-import { LayoutDashboard, Map, Ship, Building2, Bus, BedDouble } from "lucide-react";
+import { LayoutDashboard, Map, Ship, Building2, Bus, BedDouble,HandCoins } from "lucide-react";
 import { NavLink } from "./NavLink";
 import { useLocation } from "react-router-dom";
 import {
@@ -22,7 +22,7 @@ const navItems = [
   { title: "Accommodation", url: "/accommodation", icon: Building2 },
   { title: "Transport", url: "/transport", icon: Bus },
   { title: "Room Occupancy", url: "/occupancy", icon: BedDouble },
-  { title: "Donations", url: "/donations", icon: Building2 },
+  { title: "Donations", url: "/donations", icon:HandCoins  },
 ];
 
 export function AppSidebar() {
